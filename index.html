@@ -13,11 +13,11 @@
 
 <body>
   <header class="perfil__medico">
-      <img src="assets/img/perfil-1.svg" alt="Foto do médico" class="perfil__medico-img">
-      <div>
-        <h1 class="perfil__medico-nome">Olá, Sônia</h1>
-        <p class="perfil__medico-texto">Mais 4 consultas hoje</p>
-      </div>
+    <img src="assets/img/perfil-1.svg" alt="Foto do médico" class="perfil__medico-img">
+    <div>
+      <h1 class="perfil__medico-nome">Olá, Sônia</h1>
+      <p class="perfil__medico-texto">Mais 4 consultas hoje</p>
+    </div>
   </header>
 
   <section class="agenda">
@@ -240,8 +240,46 @@
         <a href="#" class="consulta__link-endereco">Ver endereço</a>
       </div>
     </div>
-
   </section>
+
+  <footer class="rodape">
+    <nav class="container__rodape">
+      <a class="menu__link" href="#">
+        <img src="assets/img/Calendarioicone.svg" alt="Menu consultas">
+        <p class="menu__link--selecionado">Consultas</p>
+      </a>
+      <a class="menu__link" href="#">
+        <img src="assets/img/clientesicone.svg" alt="Menu consultas">
+        <p class="menu__link-texto">Clientes</p>
+      </a>
+      <a class="menu__link" href="#">
+        <img src="assets/img/relatoriosicone.svg" alt="Menu consultas">
+        <p class="menu__link-texto">Relatórios</p>
+      </a>
+      <a class="menu__link" href="#">
+        <img src="assets/img/menuicone.svg" alt="Menu consultas">
+        <p class="menu__link-texto">Menu</p>
+      </a>
+    </nav>
+  </footer>
+
+  <div class="menu__flutuante">
+    <input type="checkbox" class="botao__flutuante" id="menu">
+    <ul class="lista__menu">
+      <li class="lista__menu-item">
+        <span class="lista__menu-item-texto">Nova consulta na casa do paciente</span>
+        <a href="#" class="lista__menu-link-casa"></a>
+      </li>
+      <li class="lista__menu-item">
+        <span class="lista__menu-item-texto">Nova consulta por video</span>
+        <a href="#" class="lista__menu-link-video"></a>
+      </li>
+    </ul>
+    <label for="menu" class="botao__menu-item-primario" >
+      <span class="botão__flutuante-primario"></span>
+    </label>
+    <div class="tela-escura"></div>
+  </div>
 
 </body>
 

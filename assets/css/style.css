@@ -1,5 +1,7 @@
 @import url(../css/cabecalho.css);
 @import url(../css/agenda.css);
+@import url(../css/rodape.css);
+@import url(../css/botaoflutuante.css);
 
 :root {
   --branco: #FFFFFF;
@@ -9,6 +11,7 @@
   --laranja: #FFB050;
   --azul: #4894FF;
   --fundo: #F6F6F6;
+  --fundo-preto: #000000;
 
   --fonte: 'Montserrat', sans-serif;
 }

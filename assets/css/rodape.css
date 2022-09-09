@@ -1,0 +1,27 @@
+.rodape {
+  position: sticky;
+  bottom: 0%;
+  width: 100vw;
+}
+
+.container__rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: center;
+  background-color: var(--branco);
+  border-radius: 15px 15px 0 0;
+  padding: 1rem; 
+}
+
+.menu__link--selecionado {
+  color: var(--azul);
+  font-size: 12px;
+  margin-top: .2rem;
+}
+
+.menu__link-texto {
+  color: var(--cinza-escuro);
+  font-size: 12px;
+  margin-top: .2rem;
+}
