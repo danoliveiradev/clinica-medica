@@ -33,6 +33,11 @@
   }
 
   #primeiro-nome,
+  #sobrenome {
+    text-transform: capitalize;
+  }
+
+  #primeiro-nome,
   #sobrenome,
   #data,
   #hora,
