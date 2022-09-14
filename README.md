@@ -1,11 +1,11 @@
 # **Clínica Médica**
 
 ![Badge Licensa](https://img.shields.io/github/license/danoliveiradev/optimus-tech?label=LICENSA&style=flat-square)
-![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=red&style=flat-square)
+![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=brightgreen&style=flat-square)
 
 ## 📝 **Descrição**
 
-Projeto desenvolvido através do #7daysOfCode onde os alunos são desafiados a colocar seus conhecimentos em prática, nesse desafio desenvolvi uma página de consultas médicas responsisa, ou seja, que se adapta ao tamanho de tela.
+Projeto desenvolvido através do [#7daysOfCode](https://7daysofcode.io/) onde os alunos são desafiados a colocar seus conhecimentos em prática, nesse desafio desenvolvi uma página de consultas médicas responsisa, ou seja, que se adapta ao tamanho de tela.
 
 <p align="center">
   <img src="assets/capturas/Agenda de Consultas - Mobile.gif"/><br><sub>Tela Mobile</sub>
