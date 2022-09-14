@@ -1,0 +1,45 @@
+.menu-lateral {
+  display: none;
+}
+
+/* Versão desktop (min-width: 1065px) */
+@media screen and (min-width: 1065px) {
+
+  .menu-lateral {
+    display: block;
+    background-color: var(--branco);
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.06);
+    width: 20%;
+    height: auto;
+  }
+
+  .lista__menu-lateral {
+    position: fixed;
+    top: 5%;
+    left: 2%;
+  }
+
+  .lista__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .lista__item-icone {
+    width: 24px;
+  }
+
+  .lista__item-link {
+    justify-self: flex-start;
+    margin-left: 1rem; 
+  }
+
+  .lista__item-link:hover {
+    color: var(--azul)
+  }
+
+  .item-link--selecionado {
+    color: var(--azul);
+    font-weight: 500;
+  }
+}

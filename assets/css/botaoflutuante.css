@@ -1,7 +1,7 @@
 .menu__flutuante {
   position: fixed;
   right: 1%;
-  bottom: 25%;
+  bottom: 12%;
 }
 
 .botao__flutuante {
@@ -73,4 +73,12 @@
 .lista__menu-link-video,
 .botão__flutuante-primario {
   z-index: 9999;
+}
+
+/* Versão desktop (min-width: 1065px) */
+@media screen and (min-width: 1065px) {
+
+  .menu__flutuante {
+    display: none;
+  }
 }

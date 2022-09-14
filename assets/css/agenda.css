@@ -1,4 +1,7 @@
 .agenda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 1rem;
 }
 
@@ -6,12 +9,14 @@
   font-weight: 700;
   color: var(--cinza-escuro);
   margin-top: 2rem;
+  align-self: flex-start;
 }
 
 .container__agenda {
   margin: 1rem 0;
   background-color: var(--branco);
   border-radius: 8px;
+  max-width: 380px;
 }
 
 .perfil__paciente {
@@ -109,4 +114,37 @@ hr {
   box-shadow: 0px 4px 16px rgba(72, 148, 255, 0.16);
   border-radius: 8px;
   background-color: var(--azul);
+}
+
+/* Versão tablet (min-width: 768px) */
+@media screen and (min-width: 768px) {
+  
+  .agenda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    margin: 0 2rem;
+  }
+
+  .agenda__dia {
+    grid-column: span 2;
+  }
+
+  .container__agenda {
+    justify-self: center;
+  }
+}
+
+/* Versão desktop (min-width: 1065px) */
+@media screen and (min-width: 1065px) {
+
+  .agenda {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .agenda__dia {
+    grid-column: span 3;
+    justify-self: start;
+  }
+
 }

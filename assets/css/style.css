@@ -1,7 +1,10 @@
-@import url(../css/cabecalho.css);
+@import url(../css/perfil-medico.css);
 @import url(../css/agenda.css);
 @import url(../css/rodape.css);
 @import url(../css/botaoflutuante.css);
+@import url(../css/menu-lateral.css);
+@import url(../css/formulario.css);
+@import url(../css/nova-consulta.css);
 
 :root {
   --branco: #FFFFFF;
@@ -19,4 +22,12 @@
 body {
   background-color: var(--fundo);
   font-family: var(--fonte);
+}
+
+/* Versão desktop (min-width: 1065px) */
+@media screen and (min-width: 1065px) {
+
+  body {
+    display: flex;
+  }
 }
